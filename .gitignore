@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/settings.local.json
+.vscode/*.user
+*.user
+*.userprefs
+*.sln.iml
+
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+launchSettings.json
+
+# Dependencies
+packages/
+.nuget/
+
+# OS
+.DS_Store
+Thumbs.db
